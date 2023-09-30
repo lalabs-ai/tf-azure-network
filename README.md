@@ -1,0 +1,1 @@
+create simple azure virtual network to test azure sandbox account.
