@@ -1,19 +1,13 @@
-variable "rg-name" {
-  description = "name of the resource group"
+variable "prefix" {
+  description = "prefix used to prepend resource names"
   type        = string
-  default     = "rg-test"
+  default     = "demo"
 }
 
 variable "region" {
   description = "region to deploy infrastructure"
   type        = string
   default     = "West US 2"
-}
-
-variable "prefix" {
-  description = "prefix used to prepend resource names"
-  type        = string
-  default     = "demo"
 }
 
 variable "vnet_cidr" {
