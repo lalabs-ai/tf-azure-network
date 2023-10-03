@@ -2,7 +2,7 @@
 variable "prefix" {
   description = "prefix used to prepend resource names"
   type        = string
-  default     = "demo"
+  # default     = "demo"
 }
 
 variable "subscription_id" {
@@ -28,7 +28,7 @@ variable "client_secret" {
 variable "region" {
   description = "region to deploy infrastructure"
   type        = string
-  default     = "West US 2"
+  # default     = "West US 2"
 }
 
 # resource specific configurations
